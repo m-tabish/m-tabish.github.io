@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "San Francisco";
+	font-weight: 400;
+	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "SF Pro Display", -apple-system, "Roboto", "Poppins";
+	font-weight: 400;
+}
+.container {
+	/* min-width: 100vw; */
+	min-height: 100vh;
+}
+.text-gradient-right {
+	background: linear-gradient(to right, #ff5733, #ffffff, #ff5733);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.text-gradient-left {
+	background: linear-gradient(to right, #ffffff, #ff5733);
+	-webkit-background-clip: text;
+	color: transparent;
+}

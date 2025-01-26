@@ -1,0 +1,11 @@
+
+{
+  "name": "Portfolio",
+  "description": "The statistics of any Medium author.",
+  "version": "1.0",
+  "manifrest_version": 3,
+  "action": {
+      "default_popup": "./dist/index.html",
+      "default_title": "Open Medium Any Authors Stats"
+  }  
+}
